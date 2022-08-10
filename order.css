@@ -1,0 +1,133 @@
+ body {
+  background-image: url("./images/pattern-background-desktop.svg");
+  background-color: blue;
+  background-color: hsl(225, 100%, 94%);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+main {
+  margin: 3% 35%;
+  text-align: center;
+  height: 100%;
+  width: 30%;
+  background-color: white;
+  border-radius: 5%;
+  display: flex;
+  flex-direction: column;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+p {
+  align-content: center;
+  width: 60%;
+  margin: auto 20% 8%;
+  color: #808080;
+}
+
+h4 {
+  margin-right: auto;
+  margin-left: -7%;
+  color: #0e1845;
+}
+
+h1{
+  color: #0e1845;
+}
+
+a{
+  color: #0e1845;
+  font-weight: 500;
+  font-size: 0.8em;
+}
+a:hover{
+  color:#b463ba;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 0.8em;
+  font-weight: 500;
+}
+
+span {
+  color: #808080;
+  font-weight: 300;
+  font-size: 1em;
+}
+
+.class {
+  display: flex;
+  flex-direction: row;
+}
+.tab {
+  width: 70%;
+  padding: 2.5%;
+  border-radius: 6%;
+  background-color: magenta;
+  background-color: hsl(225, 100%, 98%);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.ico {
+  padding: 3%;
+}
+
+.ill {
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.payment {
+  width: 75%;
+  margin: 10px auto;
+  padding: 3%;
+  border-radius: 9px;
+  color: white;
+  border: none;
+  background-color: violet;
+  background-color: hsl(257, 40%, 49%);
+  font-size: 0.85em;
+  font-weight: 700;
+  box-shadow: 2px 25px 39px -8px rgba(149, 153, 148, 0.70);
+}
+
+.payment:hover {
+  background-color:#b463ba;
+  cursor: pointer;
+}
+
+.cancel {
+  padding: 2%;
+  margin: 5px auto 20px auto;
+  background-color: #fff;
+  background-color: rgba(0,0,0,0);
+  border: none;
+  color: #808080;
+  font-size: 0.85em;
+  font-weight: 700;
+}
+
+.cancel:hover {
+  color: #0e1845;
+  cursor: pointer;
+}
+/* phone */
+@media(max-width:50em) {
+  main{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+
+
+  }
+  .tab{ width:90%;
+  }
+
+}
